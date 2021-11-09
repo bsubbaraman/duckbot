@@ -1,5 +1,5 @@
 # requirements
-Install requirements with `pip install -r requirements`
+Install requirements with `pip install -r requirements.txt`
 
 # setup
 ## hardware 
