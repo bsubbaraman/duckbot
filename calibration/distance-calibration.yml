@@ -1,0 +1,4 @@
+z_50: # distance of microscope in z direction, mm
+  x: 9.92
+  y: 7.54
+  z: 50
