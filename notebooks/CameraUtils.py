@@ -54,9 +54,13 @@ def saveFrame(idx=0, path="./test.png"):
         return frame
     else:
         return "couldn't get frame!"
-def showFrame(frame):
+def showFrame(frame, grid=False):
     plt.imshow(frame)
     plt.title('frame capture')
+    if grid:
+        plt.grid() # add a grid
+        h, w, z = frame.shape
+        plt.plot([w/2], [h/2], marker='o') # put a marker in the center of the image
     plt.show()
     
 def selectPoint(frame):
