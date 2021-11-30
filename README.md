@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./images/teaser.gif" />
+</p>
+
+
 This repository contains Jupyter notebooks to manipulate duckweed using the [Jubilee](https://jubilee3d.com/index.php?title=Main_Page) platform! We assume you have a Jubilee outfitted with USB microscope and 10cc syringe tools; however, the calibration notebooks can be used to guide you through tool alignment process for any two tools.
 
 ## Installation
